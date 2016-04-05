@@ -1,0 +1,22 @@
+{
+  "name": "alpine-nodejs",
+  "version": "1.0.0",
+  "author": "youske miyakoshi <youske@gmail.com>",
+  "description": "The thing npm uses to read package.json files with semantics and defaults and validation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/read-package-json.git"
+  },
+  "scripts": {
+    "test": "standard && tap test/*.js"
+  },
+  "dependencies": {
+    "pm2": "^1.1.0",
+    "forever": "^1.1.0",
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {
+  },
+  "license": "ISC"
+}
