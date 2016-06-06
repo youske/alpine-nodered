@@ -1,7 +1,7 @@
 version: "2"
 services:
 
-  noderedimage:
+  server:
     container_name: nodered
     build: build
     ulimits:
@@ -12,14 +12,8 @@ services:
     ports:
       - "1880:1880"
     volumes:
-      - data:/nodered_data
-    networks:
-      - front
+      - data:/home/nodered/data
 
 volumes:
   data:
     driver: local
-
-networks:
-  front:
-    driver: bridge

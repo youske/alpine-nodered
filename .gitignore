@@ -4,14 +4,12 @@ vendor/
 tests/
 
 #
-.git*
+.tags
 .sync-config.cson
 .remote-sync.json
-LICENSE*
-README*
-
-.tags
 *.swp
 *.lck
 *.*~
 *~
+
+!.gitkeep
