@@ -129,22 +129,27 @@
     "node-red-contrib-graphs":"*",
     "node-red-contrib-metrics":"*",
     "node-red-contrib-freeboard":"*",
+    "node-red-contrib-serial-iterator":"*",
+    "node-red-node-instagram":"*",
+    "node-red-contrib-boxcar":"*",
+    "node-red-node-transmission":"*",
+    "node-red-filter-filename":"*",
+    "node-red-contrib-readability":"*",
+    "node-red-contrib-web-worldmap":"*",
+    "node-red-contrib-slackbot":"*",
+    "node-red-contrib-reddit":"*",
+    "node-red-contrib-schedex":"*",
+    "node-red-contrib-watchdog":"*",
     "node-red-contrib-xml-validate":"*"
   },
-  "XoptionalDependencies": {
+  "nonInstalled": {
+    "node-red-node-box":"*",
+    "node-red-node-prowl":"*",
     "node-red-contrib-kafka-producer":"*",
     "node-red-contrib-kafka-node":"*",
-    "node-red-contrib-reddit":"*",
-    "node-red-node-box":"*",
-    "node-red-filter-filename":"*",
-    "node-red-contrib-slackbot":"*",
-    "node-red-node-instagram":"*",
-    "node-red-contrib-watchdog":"*",
-    "node-red-node-transmission":"*",
-    "node-red-contrib-boxcar":"*",
-    "node-red-node-prowl":"*",
-    "node-red-node-leveldb":"*",
-    "node-red-contrib-serial-iterator":"*"
+    "node-red-node-leveldb":"*"
+  },
+  "optionalDependencies": {
   },
   "license": "ISC"
 }
