@@ -1,11 +1,11 @@
 {
-  "name": "alpine-nodejs",
+  "name": "alpine-nodered",
   "version": "1.0.0",
   "author": "youske miyakoshi <youske@gmail.com>",
-  "description": "The thing npm uses to read package.json files with semantics and defaults and validation",
+  "description": "docker image file",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/read-package-json.git"
+    "url": "https://github.com/youske/alpine-nodered.git"
   },
   "scripts": {
     "test": "standard && tap test/*.js"
@@ -140,6 +140,7 @@
     "node-red-contrib-reddit":"*",
     "node-red-contrib-schedex":"*",
     "node-red-contrib-watchdog":"*",
+    "node-red-contrib-swagger":"*",
     "node-red-contrib-xml-validate":"*"
   },
   "nonInstalled": {
